@@ -2,7 +2,7 @@ runtime: python37
 
 handlers:
 - url: /.*
-  script: main.app
+  script: auto
   # This configures Google App Engine to serve the files in the app's static
   # directory.
 #- url: /static
